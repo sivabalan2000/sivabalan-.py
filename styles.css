@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .game-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #scrambled-word {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  #user-input {
+    padding: 10px;
+    font-size: 1em;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #check-button { background-color: #28a745; color: #fff; }
+  #prev-button { background-color: #007bff; color: #fff; }
+  #next-button { background-color: #ffc107; color: #fff; }
+  #exit-button { background-color: #dc3545; color: #fff; }
+  
+  #feedback {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .animated {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .fade-out {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  
+  .fade-in {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
